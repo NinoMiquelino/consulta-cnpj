@@ -1,0 +1,49 @@
+/* style.css */
+
+/* Regras padrão (Aplicadas a TODAS as telas e orientações) */
+body {
+    /* Remove a centralização forçada que corta o topo em telas pequenas */
+    display: flex;
+    flex-direction: column; /* Garante que os filhos (container) se empilhem */
+    align-items: center; /* Centraliza horizontalmente (o que já estava funcionando) */
+
+    /* Altura Mínima: Permite rolagem se o conteúdo for maior que a tela */
+    min-height: 100vh; 
+    
+    /* Espaçamento que garante o respiro no topo e rodapé, mesmo com rolagem */
+    padding-top: 20px; 
+    padding-bottom: 30px; 
+}
+
+/* Centraliza o card e limita a largura */
+.container {
+    max-width: 700px;
+    width: 100%; /* Garante que o container ocupe a largura total */
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    /* A margem superior mt-5 deve ter sido removida do HTML */
+    margin-top: 0 !important; 
+}
+
+/* Ajuste para o ícone de carregamento */
+#loading-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem; 
+}
+
+
+/* ========================================================== */
+/* MODO PAISAGEM (LANDSCAPE) - Mantida para garantir a usabilidade horizontal */
+/* ========================================================== */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    
+    /* O alinhamento já é flex-start por padrão devido ao padding, 
+       mas vamos reforçar o padding mínimo para telas muito curtas */
+    body {
+        padding-top: 5px; 
+        padding-bottom: 30px; 
+    }
+}
