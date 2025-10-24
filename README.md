@@ -10,7 +10,7 @@
 
 ---
 
-# 🧭 Consulta CNPJ
+# 🏢 PHP CNPJ Lookup (ReceitaWS API & JSON Parser)
 
 ![Made with PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
 ![Frontend JavaScript](https://img.shields.io/badge/Frontend-JavaScript-F7DF1E?logo=javascript&logoColor=black)
@@ -21,7 +21,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/NinoMiquelino/php-cnpj-lookup?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/NinoMiquelino/php-cnpj-lookup)
 
-Aplicação simples e prática para **consulta de dados de empresas a partir do CNPJ**, utilizando a API pública [ReceitaWS](https://receitaws.com.br/).
+Aplicação PHP simples e eficiente para consulta de dados de empresas a partir do CNPJ, integrando-se à API pública [ReceitaWS](https://receitaws.com.br/) e retornando informações estruturadas em JSON.
 
 Permite testar as consultas tanto no **frontend (JavaScript)** quanto no **backend (PHP)** — ideal para aprender, integrar ou demonstrar consumo de APIs REST.
 
