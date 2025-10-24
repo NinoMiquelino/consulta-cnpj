@@ -17,9 +17,9 @@
 ![License MIT](https://img.shields.io/badge/License-MIT-green)
 ![Status Stable](https://img.shields.io/badge/Status-Stable-success)
 ![Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-blue)
-![GitHub stars](https://img.shields.io/github/stars/NinoMiquelino/consulta-cnpj?style=social)
-![GitHub forks](https://img.shields.io/github/forks/NinoMiquelino/consulta-cnpj?style=social)
-![GitHub issues](https://img.shields.io/github/issues/NinoMiquelino/consulta-cnpj)
+![GitHub stars](https://img.shields.io/github/stars/NinoMiquelino/php-cnpj-lookup?style=social)
+![GitHub forks](https://img.shields.io/github/forks/NinoMiquelino/php-cnpj-lookup?style=social)
+![GitHub issues](https://img.shields.io/github/issues/NinoMiquelino/php-cnpj-lookup)
 
 Aplicação simples e prática para **consulta de dados de empresas a partir do CNPJ**, utilizando a API pública [ReceitaWS](https://receitaws.com.br/).
 
@@ -37,7 +37,7 @@ Permite testar as consultas tanto no **frontend (JavaScript)** quanto no **backe
 
 ## 🧩 Estrutura do Projeto
 ```
-consulta-cnpj/
+php-cnpj-lookup/
 📁 docs/
 │   ├── index.html
 │   └── consulta_cnpj.php
@@ -53,7 +53,7 @@ consulta-cnpj/
 ## 🚀 Visualizar na prática
 
 ### 🔸 Frontend (JavaScript)
-👉 [**Acesse o site online**](https://ninomiquelino.github.io/consulta-cnpj/)  
+👉 [**Acesse o site online**](https://ninomiquelino.github.io/php-cnpj-lookup/)  
 Digite um CNPJ e veja o resultado instantaneamente na interface.
 
 ---
@@ -78,7 +78,7 @@ Você também pode testar em qualquer serviço de hospedagem PHP gratuita (ex.: 
 ## 📦 Como usar
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/ninomiquelino/consulta-cnpj.git
+   git clone https://github.com/ninomiquelino/php-cnpj-lookup.git
 
 ---   
 
@@ -90,7 +90,7 @@ Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## 🤝 Contribuições
 Contribuições são sempre bem-vindas!  
-Sinta-se à vontade para abrir uma [*issue*](https://github.com/NinoMiquelino/consulta-cnpj/issues) com sugestões ou enviar um [*pull request*](https://github.com/NinoMiquelino/consulta-cnpj/pulls) com melhorias.
+Sinta-se à vontade para abrir uma [*issue*](https://github.com/NinoMiquelino/php-cnpj-lookup/issues) com sugestões ou enviar um [*pull request*](https://github.com/NinoMiquelino/php-cnpj-lookup/pulls) com melhorias.
 
 ---
 
